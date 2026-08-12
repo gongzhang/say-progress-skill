@@ -1,0 +1,7 @@
+interface:
+  display_name: "Say Progress"
+  short_description: "用语音播报 Codex 任务的进展"
+  default_prompt: "使用 $say-progress 在执行任务时用语音播报关键进展。"
+
+policy:
+  allow_implicit_invocation: false
